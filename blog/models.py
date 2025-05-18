@@ -16,3 +16,5 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+from django.shortcuts import render
+from .models import Post
